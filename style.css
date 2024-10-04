@@ -1,0 +1,140 @@
+body {
+    background-color: #222;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main {
+    flex: 1;
+    position: relative;
+    top: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    color: rgb(24, 138, 238);
+    font-size: 1.5em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #fff;
+    font-size: 1.12em;
+    text-decoration: none;
+    margin: 0 15px 0 15px;
+}
+
+a:hover {
+    transform: translateY(-15%);
+    transition: all 0.3s ease 0s;
+    color: rgb(185, 33, 33);
+}
+
+.cont:hover,
+.github button:hover {
+    transform: translateY(-15%);
+    transition: all 0.3s ease 0s;
+    color: rgb(219, 31, 69);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+}
+
+.logo:hover {
+    color: rgba(236, 4, 42, 0.845);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.kontact {
+    background-color: tomato;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height: 30px;
+    width: 110px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content p {
+    position: relative;
+    top: 5.2em;
+    font-size: 3em;
+}
+
+.github {
+    display: flex;
+    justify-content: center;
+}
+
+.github button {
+    position: relative;
+    top: 10.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height: 30px;
+    width: 200px;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding: 25px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.projects {
+    flex: 1;
+    display: flex;
+    place-content: center;
+    justify-content: space-around;
+}
+
+
+figure {
+    position: relative;
+    top: 10em;
+    height: 19em;
+    border-radius: 5%;
+    width: 15em;
+    display: grid;
+    place-content: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.later {
+    position: relative;
+    top: 12em;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.later p {
+    font-size: 5em;
+    text-align: center;
+
+}
