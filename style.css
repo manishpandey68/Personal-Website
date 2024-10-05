@@ -158,3 +158,26 @@ gap: 10px;
 .cont button{
     cursor: pointer;
 }
+
+@media(max-width:500px) {
+    .content{
+    display: flex;
+    justify-content: center;
+    }
+    .content p{
+        font-size: 40px;
+        overflow:hidden;
+    }
+    .logo{
+        visibility: hidden;
+    }
+    #kontact{
+        background-color: red;
+        visibility: hidden;
+    }
+    .main{
+        padding: 0px;
+        text-align: center;
+        margin: 0px;
+    }
+}
