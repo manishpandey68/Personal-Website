@@ -42,7 +42,7 @@ a:hover,
 }
 
 .cont:hover,
-.github button:hover {
+.github button:hover,#contact:hover {
     transform: translateY(-15%);
     transition: all 0.3s ease;
     color: rgb(219, 31, 69);
@@ -192,6 +192,7 @@ figure {
         place-content: center;
     }
     #contact{
+        cursor: pointer;
         position: relative;
         top: 25em;
         height: 50px;
